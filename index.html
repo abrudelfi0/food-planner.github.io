@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>APP</title>
+    <link href="estilos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="boostrap/bootstrap.css">
+  </head>
+  <body>
+   
+<header class="fixed-top">
+  <h1 id="logo">Food planner</h1>
+      <nav class="row navbar navbar-expand-lg bgnav">
+        <div class="container">
+        <div class="collapse navbar-collapse p" id="barra">
+            <ul class="navbar-nav text-center ms-auto text-uppercase">
+                <li class="nav-item">
+                    <a class="nav-link" href="#uno">Inicio</a>
+                </li>
+                <li class="nav-item"> 
+                    <a class="nav-link" href="#dos">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#tres">Beneficios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#cuatro">Historial</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+</header>
+  
+
+<section id="uno">
+  <div class="content">
+    <h3 class="text-uppercase">Food Planner</h3>
+    <p>Organiza tus menús semanales y planifica mejor tus comidas de cada día.<br>Si uno de tus propósitos es cuidar tu alimentación, organiza el menú para evitar improvisaciones poco saludables. </p>
+  </div>
+</section>
+
+
+<section id="dos">
+  <div class="container">
+    <div class="row">
+          <div class="col-lg-4 col-md-12 col-12 mt-2">
+            <div class="about-img">
+              <figure>
+              <img src="img/nosotros.jpg" alt="Nosotros" class="img-fluid mt-5 rounded float-start">
+              </figure>
+            </div>
+          </div>
+           <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+            <div class="about-text">
+              <h2 class="text-uppercase mb-5 text-success fs-1" id="nosotros">Nosotros</h2>
+              <p class="text-body-secondary mt-2" id="nosotros-texto">
+               Food planner es una pagina que ha nacido para la organizacion alimenticia tanto familiar como individual.<br> Crea un menú semanal buscando intentar tener un estilo de vida más saludable. Se trata de un servicio donde no solo vas a  poder planificar tus menus semanales con anticipacion, sino que también podrás llevar un registro diario de lo que ingieres.<br> En Food Planner, queremos que vos y tu familia disfruten de comidas ricas y equilibradas, sin complicaciones.<br><strong>¡Queremos preparar una propuesta perfecta para vos haciendo que todo sea fácil y conveniente!</strong><br>Contamos con una versión web, aplicacion móvil y el servicio es gratuito.
+              </p>
+            </div>
+          </div>      
+    </div>
+  </div>
+</section>
+
+
+<section id="tres">
+  <h2 id="beneficios" class="text-uppercase">Beneficios</h2>
+  <p class="beneficio-texto">Llevar un diario de alimentación te permitirá ser más consciente de tu alimentación.</p>
+
+  <div class="row">
+    <div class="course-col">
+      <i class="bi bi-calendar" class="icono"></i>
+      <p class="beneficio-caja">Un diario o registro de alimentos es una herramienta que permite obtener información cuantitativa y cualitativa sobre tu dieta. Básicamente consiste en hacer un recuento de los alimentos y bebidas consumidos en un determinado periodo de tiempo. Así podrás valorar la cantidad y calidad de lo que ingieres y con ello mejorar algún aspecto relacionado con tu alimentación.</p>
+    </div>
+    <div class="course-col">
+      <i class="bi bi-calendar-check" class="icono"></i>
+      <p class="beneficio-caja">Valorar tus hábitos dietéticos puede ayudarte a identificar intolerancias alimentarias. Es decir, detectar un alimento o más que te cause o detone un brote de algún malestar gastrointestinal como reflujo, gastritis, distensión abdominal, flatulencias o diarreas. Por ejemplo, suele ser bastante útil en personas que viven con colon irritable y buscan identificar aquellos alimentos que aumentan sus síntomas. </p>
+    </div>
+    <div class="course-col">
+      <i class="bi bi-calendar-heart" class="icono"></i>
+      <p class="beneficio-caja">Registrar tus ingestas también permite valorar tu apetito. Puede ayudarte a identificar si comes por hambre fisiológica o por otros motivos como el hambre emocional. Por un lado, te ayudaría a valorar si comes en exceso o compulsivamente, y por otro lado identificar emociones o pensamientos asociados a tu alimentación para detectar conductas alimentarias de riesgo.</p>
+    </div>
+  </div>
+</section>
+
+
+<section id="cuatro">
+      <div class="mt-5 shadow">
+        <div class="row ">
+            <div class="col-md-4 p-5 text-white" id="caja-historia">
+                <h2 class="text-uppercase" id="historia-titulo">Historial</h2>
+                <p>Recuerda que el registro debe llenarse conforme vayas consumiendo los alimentos.</p>
+                
+                <div class="col-sm-auto d-flex justify-content-between justify-content-center justify-content-sm-end pb-3 pb-sm-0 order-first order-sm-last"></div>
+                  <button class="btn btn-warning rounded-circle p-3" id="eliminar-historial">
+                    <i class="bi bi-trash3"></i>
+                  </button>
+                </div>
+                
+
+                
+
+            
+            <div class="col-md-8 p-5 ">
+                <h2 class="text-uppercase" id="ingresa-dato">Ingreso de datos</h2>
+                      <input type="text" id="desayuno_valor" placeholder="Desayuno" required class="form-control form-control-lg d-inline-flex focus-ring py-1 px-2 text-decoration-none border rounded-2" style="--bs-focus-ring-color: rgba(var(--bs-success-rgb), .25)">
+                      <input type="text" id="almuerzo_valor" placeholder="Almuerzo" required class="form-control form-control-lg d-inline-flex focus-ring py-1 px-2 text-decoration-none border rounded-2" style="--bs-focus-ring-color: rgba(var(--bs-success-rgb), .25)">
+                      <input type="text" id="merienda_valor" placeholder="Merienda" required class="form-control form-control-lg d-inline-flex focus-ring py-1 px-2 text-decoration-none border rounded-2" style="--bs-focus-ring-color: rgba(var(--bs-success-rgb), .25)">
+                      <input type="text" id="cena_valor" placeholder="Cena" required class="form-control form-control-lg d-inline-flex focus-ring py-1 px-2 text-decoration-none border rounded-2" style="--bs-focus-ring-color: rgba(var(--bs-success-rgb), .25)">
+                      <input type="button" class="btn btn-outline-success mt-5" value="Ingresar historial" id="ingresar">
+                      </div>
+            </div>
+            </div>
+
+
+            
+            <div id="contenedor-alimentos">
+
+            </div>
+        </div>
+      </section>
+
+
+
+<footer id="info">
+  <div class="text-center">
+    <h2 class="text-uppercase" id="alumna">Alumna</h2>
+    <div class="justify-content-center">
+        <div class="d-grid col-6 mx-auto">
+            <button class="btn btn-outline-success text-uppercase mb-2" id="informacion" type="button" data-bs-toggle="collapse" data-bs-target="#info-alumna" aria-controls="info-alumna">Ver informacion personal</button>
+        </div>
+    </div>
+    <div class="row justify-content-center" id="datos">
+        <div>
+            <div id="info-alumna" class="collapse">
+                <div class="align-items-center" id="acciones">
+                    <div class="alumna">
+                      <figure class="text-center">
+                        <img src="img/foto-abril-1.jpeg" alt="Abril Delfino" id="img-personal" class="mt-5">
+                    </figure>
+                    <ul class="text-uppercase"><strong>Carrera:</strong> Diseño Multimedial</li>
+                        <li class="text-uppercase"><strong>Materia:</strong> Diseño y Programación Web I</li>
+                        <li class="text-uppercase"><strong>Turno:</strong> Tarde</li>
+                        <li class="text-uppercase"><strong>Comisión:</strong> DMT3AV</li>
+                        <li class="text-uppercase"><strong>Año:</strong> 2024</li>
+                        <li class="text-uppercase"><strong>Alumna:</strong> Delfino Abril</li>
+                      </ul>        
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</footer>
+<script src="boostrap/bootstrap.bundle.min.js"></script> 
+<script src="main.js"></script>
+</body>
+</html>
